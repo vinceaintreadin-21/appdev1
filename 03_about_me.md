@@ -1,8 +1,8 @@
 # About Me
 
-**Name:** Vincent Lee Duriga
-**Course/Year:** BS Information Systems 3rd Year
-**Fun Fact:** I play guitar and ukelele
+* **Name:** Vincent Lee Duriga
+* **Course/Year:** BS Information Systems 3rd Year
+* **Fun Fact:** I play guitar and ukelele
 
 ## Why I Want to Learn Git & Github
 
