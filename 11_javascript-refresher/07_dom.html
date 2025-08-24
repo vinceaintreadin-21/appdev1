@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align:center; padding:50px;">
+    <button onclick="changeColor()">Button</button>
+    <p id="message"></p>
+
+</body>
+<script>
+    // This function changes the background color of the webpage
+   function changeColor() {
+    let favColor = prompt("What is your favorite color?");
+    document.body.style.backgroundColor = favColor;   
+   }
+
+   // This function changes the text of the paragraph after 2 seconds
+   setTimeout(() => {
+    document.getElementById("message").innerText = "This message appears after 2 seconds";
+   }, 2000);
+
+
+</script>
+</html>
