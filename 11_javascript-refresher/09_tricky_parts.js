@@ -23,6 +23,7 @@ const obj = {
     }
 }
 
+
 obj.regularFunction(); // John
 obj.arrowFunction(); // undefined (or may refer to global object in non-strict mode)
 
