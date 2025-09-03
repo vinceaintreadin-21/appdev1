@@ -5,5 +5,6 @@ console.log("Hello JavaScript!");
 myName = "John Doe";
 myname = "Jane Doe";
 
+
 console.log(myName);
 console.log(myname);
