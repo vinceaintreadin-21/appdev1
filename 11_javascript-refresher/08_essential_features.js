@@ -11,7 +11,7 @@ const person = {
     age: 30,
 }
 
-let {name, age} = person
+let {name: firstName, age} = person
 
 console.log(person);
 

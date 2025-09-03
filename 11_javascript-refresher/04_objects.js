@@ -17,3 +17,4 @@ aboutMe.hobby = "Gaming";
 
 console.log(aboutMe)
 
+aboutMe

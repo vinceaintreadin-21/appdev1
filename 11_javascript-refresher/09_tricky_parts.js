@@ -33,3 +33,5 @@ arr2 = arr; //this does not create a new array, it just copies the reference
 const arr3 = [...arr2]; //as the arr3 output shows, there are no changes to the arrays since arr2 references arr unless we use .push()
 
 console.log(arr3)
+
+
