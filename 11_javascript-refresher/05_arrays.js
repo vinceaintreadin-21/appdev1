@@ -13,6 +13,7 @@ for (let i = 0; i < foods.length; i++) {
     console.log((foods[i]));
 }
 
+
 //alternative way of using for loop with map method
 foods.map((food) => {
     console.log("I like", food);
