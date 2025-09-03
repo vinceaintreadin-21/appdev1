@@ -3,6 +3,7 @@ function greet(name) {
     console.log("Hello, " + name + "!")
 }
 
+
 // Arrow function
 const square = (num) => {
     console.log(num * num)
