@@ -10,4 +10,5 @@ console.log(square(6))
 
 const sayHi = () => console.log('Hi') //no params
 
+
 sayHi()
