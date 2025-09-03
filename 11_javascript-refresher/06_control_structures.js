@@ -18,6 +18,7 @@ for (let i = 1; i <= 5; i++) {
 
 i = 0
 
+
 //while loop
 while (i < 3) {
     console.log("Hello");
