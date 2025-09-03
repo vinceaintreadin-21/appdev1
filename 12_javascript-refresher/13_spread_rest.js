@@ -9,6 +9,7 @@ function add(...args) {
         total + num, 0
     );
 }
+
 //outputs
 console.log(number2)
 console.log(extended)
