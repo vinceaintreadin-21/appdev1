@@ -10,6 +10,7 @@ console.log(name + age)
 let name2 = 'vincent'
 let age2 = 20
 
+
 name2 = 'vince'
 age2 = 10  
 
