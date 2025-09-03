@@ -17,7 +17,7 @@ function calculator(a, b) {
     //can also be written as: return {sum: a + b, product: a * b}
 }
 
-
+//output
 greet("Vincent")
 square(5)
 calculator(10, 5)
