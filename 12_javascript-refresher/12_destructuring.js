@@ -14,6 +14,7 @@ const [hobby1, hobby2] = hobbies
 
 console.log(hobby1)
 
+
 function printName(person) {
     console.log(person.name)
 }
