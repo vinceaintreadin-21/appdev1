@@ -12,6 +12,7 @@ function introduce(obj) {
 
 introduce(aboutMe);
 
+
 //adding new properties to an object
 aboutMe.hobby = "Gaming";
 
