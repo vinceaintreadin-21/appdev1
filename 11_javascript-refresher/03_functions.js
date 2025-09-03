@@ -18,7 +18,6 @@ function calculator(a, b) {
 }
 
 
-
 greet("Vincent")
 square(5)
 calculator(10, 5)
