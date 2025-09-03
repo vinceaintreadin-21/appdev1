@@ -16,5 +16,6 @@ class Student extends Person {
 
 let student = new Student('Vincent')
 
+
 student.sayHello()
 student.study()
