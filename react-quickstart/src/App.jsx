@@ -27,6 +27,16 @@ const student = {
   age: 20
 }
 
+//making conditional rendering
+const isLoggedIn = true;
+let content;
+if (isLoggedIn) {
+  content = <h1>Welcome back!</h1>;
+} else {
+  content = <h1>Please log in.</h1>;
+}
+
+
 function App() {
   return(
     <>
@@ -41,6 +51,8 @@ function App() {
       </div>
 
       <h1>I am {student.name}, I'm {student.age} years old </h1> {/*Done displaying data*/}
+
+      <p>{content}</p> {/*Done conditional rendering*/}
     </>
   )
 }
