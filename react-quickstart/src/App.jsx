@@ -30,7 +30,7 @@ function App() {
 
     {/* Done writing markup with JSX */}
       <div>
-        <h1>Hello, User</h1>
+        <h1 className='text-blue-300'>Hello, User</h1> {/*Done adding styles*/}
       </div>
     </>
   )
