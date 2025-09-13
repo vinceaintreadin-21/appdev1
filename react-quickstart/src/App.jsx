@@ -55,33 +55,33 @@ function SubjectList() {
   );
 }
 
-// function ClickButton() {
-//   function handleClick() {
-//     alert('Button clicked!');
-//   }
+function ClickButton() {
+  function handleClick() {
+    alert('Button clicked!');
+  }
 
-//   return (
-//     <button onClick={handleClick}>
-//       Click Me
-//     </button>
-//   );
-// }
+  return (
+    <button onClick={handleClick}>
+      Click Me
+    </button>
+  );
+}
 
-// function Counter() {
-//   const [count, setCount] = useState(0)
+function Counter() {
+  const [count, setCount] = useState(0)
 
-//   function increment() {
-//     setCount(count + 1)
-//   }
+  function increment() {
+    setCount(count + 1)
+  }
 
-//   return (
-//     <div>
-//       <p>Count: {count}</p>
-//       <button onClick={increment}>Increment</button>
-//     </div>
-//   )
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={increment}>Increment</button>
+    </div>
+  )
 
-// }
+}
 
 // function DataSharing(name, age) {
 //   return (
@@ -109,8 +109,8 @@ function App() {
       <p>{content}</p> {/*Done conditional rendering*/}
 
       <SubjectList /> {/*Done rendering lists*/}
-      {/* <ClickButton /> Done responding to events */}
-      {/* <Counter /> Done using hooks */}
+      <ClickButton /> Done responding to events
+      <Counter /> Done using hooks
       {/* <DataSharing name="Dover" age={20} /> Done sharing data between components */}
     </>
   )
