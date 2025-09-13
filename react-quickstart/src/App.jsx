@@ -27,6 +27,11 @@ function App() {
       <Header />
       <Main />
       <Footer />
+
+    {/* Done writing markup with JSX */}
+      <div>
+        <h1>Hello, User</h1>
+      </div>
     </>
   )
 }
