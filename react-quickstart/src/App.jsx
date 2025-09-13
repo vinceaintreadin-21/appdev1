@@ -20,6 +20,13 @@ function Footer() {
     <h1>This is the Footer</h1>
   )
 }
+
+//making data via object
+const student = {
+  name: "Vincent",
+  age: 20
+}
+
 function App() {
   return(
     <>
@@ -32,6 +39,8 @@ function App() {
       <div>
         <h1 className='text-blue-300'>Hello, User</h1> {/*Done adding styles*/}
       </div>
+
+      <h1>I am {student.name}, I'm {student.age} years old </h1> {/*Done displaying data*/}
     </>
   )
 }
