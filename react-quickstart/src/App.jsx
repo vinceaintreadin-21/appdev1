@@ -83,13 +83,13 @@ function Counter() {
 
 }
 
-// function DataSharing(name, age) {
-//   return (
-//     <div>
-//       <h1>I am {name}, I'm {age} years old </h1>
-//     </div>
-//   )
-// }
+function DataSharing(name, age) {
+  return (
+    <div>
+      <h1>I am {name}, I'm {age} years old </h1>
+    </div>
+  )
+}
 
 function App() {
   return(
@@ -111,7 +111,7 @@ function App() {
       <SubjectList /> {/*Done rendering lists*/}
       <ClickButton /> Done responding to events
       <Counter /> Done using hooks
-      {/* <DataSharing name="Dover" age={20} /> Done sharing data between components */}
+      <DataSharing name="Dover" age={20} /> Done sharing data between components
     </>
   )
 }
