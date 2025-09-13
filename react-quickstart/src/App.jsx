@@ -36,6 +36,60 @@ if (isLoggedIn) {
   content = <h1>Please log in.</h1>;
 }
 
+//making rendering lists
+const subjects = [
+  { id: 1, name: 'Mathematics' },
+  { id: 2, name: 'Science' },
+  { id: 3, name: 'History' },
+]
+
+const listItems = subjects.map((subject) =>
+  <li key={subject.id}>{subject.name}</li>
+);
+
+function SubjectList() {
+  return (
+    <ul>
+      {listItems}
+    </ul>
+  );
+}
+
+// function ClickButton() {
+//   function handleClick() {
+//     alert('Button clicked!');
+//   }
+
+//   return (
+//     <button onClick={handleClick}>
+//       Click Me
+//     </button>
+//   );
+// }
+
+// function Counter() {
+//   const [count, setCount] = useState(0)
+
+//   function increment() {
+//     setCount(count + 1)
+//   }
+
+//   return (
+//     <div>
+//       <p>Count: {count}</p>
+//       <button onClick={increment}>Increment</button>
+//     </div>
+//   )
+
+// }
+
+// function DataSharing(name, age) {
+//   return (
+//     <div>
+//       <h1>I am {name}, I'm {age} years old </h1>
+//     </div>
+//   )
+// }
 
 function App() {
   return(
@@ -53,6 +107,11 @@ function App() {
       <h1>I am {student.name}, I'm {student.age} years old </h1> {/*Done displaying data*/}
 
       <p>{content}</p> {/*Done conditional rendering*/}
+
+      <SubjectList /> {/*Done rendering lists*/}
+      {/* <ClickButton /> Done responding to events */}
+      {/* <Counter /> Done using hooks */}
+      {/* <DataSharing name="Dover" age={20} /> Done sharing data between components */}
     </>
   )
 }
