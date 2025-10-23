@@ -7,6 +7,7 @@ import TodoList from './TodoList.jsx'
 import Profile from './Profile.jsx'
 import PackingList from './PackingList.jsx'
 import List from './List.jsx'
+import TeaSet from './TeaSet.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,6 +18,7 @@ function App() {
       <Profile></Profile>
       <PackingList></PackingList>
       <List></List>
+      <TeaSet></TeaSet>
     </>
   )
 }
