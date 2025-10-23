@@ -6,6 +6,7 @@ import Gallery from './Gallary.jsx'
 import TodoList from './TodoList.jsx'
 import Profile from './Profile.jsx'
 import PackingList from './PackingList.jsx'
+import List from './List.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +16,7 @@ function App() {
       <TodoList></TodoList>
       <Profile></Profile>
       <PackingList></PackingList>
+      <List></List>
     </>
   )
 }
