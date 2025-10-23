@@ -4,13 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Gallery from './Gallary.jsx'
 import TodoList from './TodoList.jsx'
+import Profile from './Profile.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Gallery></Gallery>
+      {/* <Gallery></Gallery> from task 2*/}
       <TodoList></TodoList>
+      <Profile></Profile>
     </>
   )
 }

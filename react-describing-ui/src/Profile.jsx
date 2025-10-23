@@ -1,8 +1,45 @@
+// export default function Profile() {
+//   return (
+//     <img
+//       src="https://i.imgur.com/QIrZWGIs.jpg"
+//       alt="Alan L. Hart"
+//     />
+//   );
+// } From task 2
+
+import { getImageUrl } from './utils.js';
+
 export default function Profile() {
   return (
+    <Card>
+      <Avatar
+        size={100}
+        person={{
+          name: 'Katsuko Saruhashi',
+          imageId: 'YfeOqp2'
+        }}
+      />
+    </Card>
+  );
+}
+
+function Avatar({ person, size }) {
+  return (
     <img
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
+      className="avatar"
+      src={getImageUrl(person)}
+      alt={person.name}
+      width={size}
+      height={size}
     />
   );
 }
+
+function Card({ children }) {
+  return (
+    <div className="card">
+      {children}
+    </div>
+  );
+}
+
