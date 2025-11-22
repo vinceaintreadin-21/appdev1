@@ -5,12 +5,14 @@ import './App.css'
 import Avatar from './Avatar'
 import TodoList from './TodoList'
 import TodoList2 from './TodoList2'
+import Person from './Person'
 function App() {
   return (
     <>
       <Avatar />
       <TodoList/>
       <TodoList2 />
+      <Person/>
     </>
   )
 }
