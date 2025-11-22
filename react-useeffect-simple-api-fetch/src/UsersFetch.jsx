@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
-
-function TodoList() {
+function UsersFetch() {
   const [todos, setTodos] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -34,4 +32,4 @@ function TodoList() {
   );
 }
 
-export default TodoList;
+export default UsersFetch;
