@@ -4,13 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import UsersFetch from './UsersFetch'
 import PostFetchAsync from './PostsFetchAsync'
+import TodosFetchAxios from './TodosFetchAxios'
 function App() {
  
 
   return (
     <>
       {/* <UsersFetch /> */}
-      <PostFetchAsync />
+      {/* <PostFetchAsync> */}
+      <TodosFetchAxios />
     </>
   )
 }
