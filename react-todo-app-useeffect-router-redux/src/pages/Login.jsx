@@ -50,7 +50,7 @@ export default function Login() {
                 type="password" 
                 value={password}
                 placeholder='Enter password'
-                onChange={(e) => setUsername(e.target.value)}
+                onChange={(e) => setPassword(e.target.value)}
             />
             <button onClick={handleLogin}>Login</button>
         </div>
