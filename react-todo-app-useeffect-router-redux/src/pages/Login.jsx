@@ -34,4 +34,25 @@ export default function Login() {
 
         nav('/todos')
     } 
+
+    return (
+        <div>
+            <h2>Login</h2>
+
+            <input 
+                type="text" 
+                value={username}
+                placeholder='Enter username'
+                onChange={(e) => setUsername(e.target.value)}
+            />
+            <br />
+            <input 
+                type="password" 
+                value={password}
+                placeholder='Enter password'
+                onChange={(e) => setUsername(e.target.value)}
+            />
+            <button onClick={handleLogin}>Login</button>
+        </div>
+    )
 }
